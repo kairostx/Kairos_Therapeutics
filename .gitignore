@@ -1,0 +1,7 @@
+venv/  
+data/  
+*.gz  
+*.zip  
+IP/  
+Publications/ 
+venv310/ 

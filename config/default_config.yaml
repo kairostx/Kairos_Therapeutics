@@ -1,0 +1,51 @@
+# Kairos Therapeutics Default Configuration
+
+# Data directories
+data_dir: "./data"
+model_dir: "./data/models"
+
+# Compute settings
+device: "cuda"  # or "cpu"
+num_workers: 4
+batch_size: 32
+
+# Model settings
+model:
+  drug_discovery:
+    architecture: "graph_neural_network"
+    hidden_dim: 256
+    num_layers: 3
+
+  medical_imaging:
+    architecture: "resnet50"
+    pretrained: true
+    num_classes: 10
+
+  clinical_analysis:
+    model_type: "gradient_boosting"
+    n_estimators: 100
+    learning_rate: 0.1
+
+  genomics:
+    embedding_dim: 128
+    max_sequence_length: 1000
+
+# Training settings
+training:
+  learning_rate: 0.001
+  epochs: 100
+  early_stopping_patience: 10
+  validation_split: 0.2
+
+# Logging
+logging:
+  level: "INFO"
+  log_dir: "./logs"
+  experiment_tracker: "mlflow"  # or "wandb"
+  mlflow_tracking_uri: "http://localhost:5000"
+
+# Data processing
+preprocessing:
+  normalize: true
+  augmentation: true
+  cache_processed_data: true

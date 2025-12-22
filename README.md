@@ -1,3 +1,5 @@
+**🌐 Project Website & Vision:** [Click here to view the Product Site](https://www.kairostx.com)
+
 # Kairos Therapeutics
 
 A comprehensive ML/AI platform for therapeutic research, integrating drug discovery, medical imaging, clinical analysis, and genomics.
@@ -52,8 +54,8 @@ Kairos Therapeutics provides a unified framework for multi-modal therapeutic res
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/kairos-therapeutics.git
-cd kairos-therapeutics
+git clone https://github.com/kairostx/Kairos-Multiomics-ML-Engine.git
+cd Kairos-Multiomics-ML-Engine
 
 # Run setup script (Linux/Mac)
 chmod +x scripts/setup_environment.sh
@@ -240,15 +242,15 @@ If you use Kairos Therapeutics in your research, please cite:
   title = {Kairos Therapeutics: A Multi-Modal AI Platform for Therapeutic Research},
   author = {Kairos Therapeutics Team},
   year = {2025},
-  url = {https://github.com/yourusername/kairos-therapeutics}
+  url = {https://github.com/kairostx/Kairos-Multiomics-ML-Engine}
 }
 ```
 
 ## Support
 
-- Issues: [GitHub Issues](https://github.com/yourusername/kairos-therapeutics/issues)
-- Discussions: [GitHub Discussions](https://github.com/yourusername/kairos-therapeutics/discussions)
-- Email: support@kairos-therapeutics.com
+- Issues: [GitHub Issues](https://github.com/kairostx/Kairos-Multiomics-ML-Engine/issues)
+- Discussions: [GitHub Discussions](https://github.com/kairostx/Kairos-Multiomics-ML-Engine/discussions)
+
 
 ## Acknowledgments
 

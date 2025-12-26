@@ -1,0 +1,53 @@
+============================================================
+KAIROS ML PROTOTYPE V0 - QC SUMMARY REPORT
+Dataset: GSE114007 (Knee Cartilage OA)
+Generated: 2025-12-26 18:48:37
+============================================================
+
+DATASET OVERVIEW
+----------------------------------------
+Total samples: 38
+Total genes: 23,710
+  OA: 20
+  Control: 18
+
+QC STATUS
+----------------------------------------
+Sample-metadata alignment: PASS
+Minimum mean sample correlation: 0.851 (PASS)
+Minimum genes detected: 12,236 (PASS)
+
+PCA SUMMARY
+----------------------------------------
+PC1 variance explained: 28.1%
+PC2 variance explained: 13.2%
+PC3 variance explained: 8.4%
+
+KEY GENES FOUND
+----------------------------------------
+  PF4: Anti-aging secreted factor (Pinho 2025)
+  COL2A1: Type II collagen (cartilage matrix)
+  ACAN: Aggrecan (cartilage proteoglycan)
+  MMP13: Matrix metalloproteinase (OA marker)
+  IL1B: Pro-inflammatory cytokine
+  SOX9: Master chondrogenic transcription factor
+  COMP: Cartilage oligomeric matrix protein
+  PRG4: Lubricin (joint lubrication)
+  ADAMTS5: Aggrecanase (cartilage degradation)
+  Missing: CXCL4
+
+OUTPUT FILES
+----------------------------------------
+  genes_detected_per_sample.png
+  gene_expression_distributions.png
+  key_genes_boxplot.png
+  pca_by_condition.png
+  pca_scree_plot.png
+  sample_correlation_heatmap.png
+
+RECOMMENDATION
+----------------------------------------
+Data quality: ACCEPTABLE for downstream analysis
+Next step: Proceed to Notebook 03 (Differential Expression)
+
+============================================================

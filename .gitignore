@@ -5,3 +5,4 @@ data/
 IP/  
 Publications/ 
 venv310/ 
+.ipynb_checkpoints/ 

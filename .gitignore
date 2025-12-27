@@ -6,3 +6,15 @@ IP/
 Publications/ 
 venv310/ 
 .ipynb_checkpoints/ 
+
+# Private notebooks with real targets
+notebooks/Notebook_07_Causal_Discovery.ipynb
+notebooks/Notebook_08*.ipynb
+notebooks/Notebook_09*.ipynb
+notebooks/Notebook_10*.ipynb
+
+# Private data files with real gene names
+data/processed/causal_rankings.csv
+data/processed/causal_drivers.csv
+data/processed/causal_edges.csv
+data/processed/prioritized_targets.csv

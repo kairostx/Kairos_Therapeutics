@@ -1,0 +1,101 @@
+======================================================================
+KAIROS ML PROTOTYPE V0 - AGE-DISEASE INTERSECTION ANALYSIS
+Dataset: GSE114007 (Knee Cartilage OA vs Control)
+Generated: 2025-12-26 22:41:23
+======================================================================
+
+STRATEGIC CONTEXT
+----------------------------------------
+Kairos: Causal gene-intervention discovery for aging biology
+This analysis finds genes at the intersection of:
+  1. Disease dysregulation (OA vs Control)
+  2. Aging biology (GenAge, SenMayo, SASP signatures)
+  3. MSC-deliverable (secreted factors)
+
+AGING SIGNATURES USED
+----------------------------------------
+  GenAge (established aging genes): 75
+  SenMayo (senescence markers): 93
+  SASP (secretory phenotype): 98
+  Combined unique genes: 192
+
+INTERSECTION RESULTS
+----------------------------------------
+  OA-dysregulated genes: 1269
+  Age-disease intersection: 34
+  - Disease-elevated: 23
+  - Protective loss: 11
+
+MSC-DELIVERABLE CANDIDATES
+----------------------------------------
+  Secreted factors at intersection: 19
+  - For restoration (MSC-delivered factor): 4
+  - For inhibition (MSC-delivered antagonist): 15
+
+INTERPRETATION NOTES
+----------------------------------------
+  ⚠️  Directionality is biologically context-dependent:
+
+  SENESCENCE MARKERS (CDKN1A, GLB1, CDKN2B):
+    - 'Down in OA' may NOT indicate loss of protection
+    - Could reflect reduced senescent cell burden
+    - Requires careful evaluation before targeting
+
+  SASP FACTORS:
+    - Restoration of pro-inflammatory factors could worsen disease
+    - Flagged for careful evaluation in Notebook 06
+
+  RISK FLAG SUMMARY:
+    Low: 26 genes
+    Evaluate carefully: 4 genes
+    Context-dependent: 3 genes
+    Inflammatory SASP: 1 genes
+
+  AGING HALLMARK SUMMARY:
+    ECM & Tissue Integrity: 9 genes
+    Other / Mixed: 8 genes
+    Senescence / Cell Cycle: 6 genes
+    Inflammation / Immune: 6 genes
+    Angiogenesis / Trophic: 5 genes
+
+  PRIORITY FOR MSC DELIVERY (Notebook 06):
+    1. Low-risk secreted factors (VEGFA, FST)
+    2. MMP inhibitors (clear disease-elevated targets)
+    3. Context-dependent factors require deeper analysis
+
+TOP RESTORATION CANDIDATES (MSC-delivered factors)
+----------------------------------------
+  VEGFA: log2FC=-2.56
+  LIF: log2FC=-1.80
+  ANGPTL4: log2FC=-2.74
+  FST: log2FC=-1.17
+
+TOP INHIBITION CANDIDATES (MSC-delivered antagonists)
+----------------------------------------
+  MMP13: log2FC=3.20
+  IGFBP3: log2FC=2.96
+  SPP1: log2FC=2.51
+  SERPINE2: log2FC=2.03
+  MMP9: log2FC=1.42
+  FN1: log2FC=1.40
+  WNT5A: log2FC=1.35
+  CTGF: log2FC=1.32
+  VEGFC: log2FC=1.02
+  THBS2: log2FC=2.50
+
+OUTPUT FILES
+----------------------------------------
+  aging_gene_signatures.csv
+  age_disease_intersection.csv
+  secreted_candidates.csv
+  age_disease_intersection.png
+  secreted_candidates_plot.png
+  hallmark_risk_summary.png
+
+NEXT STEPS
+----------------------------------------
+  1. Notebook 06: Therapeutic Target Prioritization
+  2. Rank candidates by druggability, effect size, aging evidence
+  3. Build Streamlit demo for investors
+
+======================================================================

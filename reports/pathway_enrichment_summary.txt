@@ -1,0 +1,61 @@
+======================================================================
+KAIROS ML PROTOTYPE V0 - PATHWAY & AGING HALLMARK ENRICHMENT
+Dataset: GSE114007 (Knee Cartilage OA vs Control)
+Generated: 2025-12-26 20:52:39
+======================================================================
+
+STRATEGIC CONTEXT
+----------------------------------------
+Kairos Therapeutics: Causal gene-intervention discovery for aging biology
+This analysis bridges: Disease → Aging Biology → Intervention Targets
+
+PATHWAY ENRICHMENT SUMMARY
+----------------------------------------
+Total pathways analyzed: 50
+Pathways enriched in UPREGULATED genes: 19
+Pathways enriched in DOWNREGULATED genes: 25
+
+TOP UPREGULATED PATHWAYS (Disease Drivers)
+----------------------------------------
+  Epithelial Mesenchymal Transition: 57 genes, FE=10.53
+  Angiogenesis: 9 genes, FE=9.23
+  Hedgehog Signaling: 6 genes, FE=6.16
+  Notch Signaling: 4 genes, FE=4.62
+  Coagulation: 17 genes, FE=4.55
+
+TOP DOWNREGULATED PATHWAYS (Protective Loss)
+----------------------------------------
+  Tnfa Signaling Via Nfkb: 70 genes, FE=13.24
+  Hypoxia: 56 genes, FE=10.59
+  P53 Pathway: 33 genes, FE=6.24
+  Apoptosis: 25 genes, FE=5.87
+  Estrogen Response Early: 29 genes, FE=5.48
+
+AGING HALLMARK IMPACT
+----------------------------------------
+  Chronic Inflammation (Inflammaging): Loss of protective signaling → TARGET FOR RESTORATION
+  Loss of Proteostasis: Loss of protective signaling → TARGET FOR RESTORATION
+  Altered Metabolism: Loss of protective signaling → TARGET FOR RESTORATION
+  ECM Degradation & Fibrosis: Disease-elevated → TARGET FOR INHIBITION
+  Stem Cell Exhaustion: Disease-elevated → TARGET FOR INHIBITION
+  Growth Factor Signaling: Loss of protective signaling → TARGET FOR RESTORATION
+  Cellular Senescence: Mixed signal → Context-dependent
+  Mitochondrial Dysfunction: Not significant → Not prioritized
+
+OUTPUT FILES
+----------------------------------------
+  pathway_enrichment_results.csv
+  aging_hallmark_mapping.csv
+  gene_pathway_hallmark_mapping.csv
+  intervention_candidates.csv
+  pathway_enrichment_barplot.png
+  aging_hallmark_heatmap.png
+
+NEXT STEPS
+----------------------------------------
+  1. Notebook 05: Age-Disease Intersection Analysis
+  2. Notebook 06: Therapeutic Target Prioritization
+  3. Filter for secreted factors (MSC-deliverable)
+  4. Build Streamlit demo for investors
+
+======================================================================

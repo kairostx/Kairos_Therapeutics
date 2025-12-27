@@ -1,0 +1,66 @@
+============================================================
+KAIROS ML PROTOTYPE V0 - DIFFERENTIAL EXPRESSION REPORT
+Dataset: GSE114007 (Knee Cartilage OA vs Control)
+Generated: 2025-12-26 19:14:45
+============================================================
+
+ANALYSIS PARAMETERS
+----------------------------------------
+Statistical test: Welch's t-test
+Multiple testing correction: Benjamini-Hochberg FDR
+Significance threshold: FDR < 0.05, |log2FC| > 1
+OA samples: 20
+Control samples: 18
+
+RESULTS SUMMARY
+----------------------------------------
+Total genes tested: 23,710
+Significant genes (FDR < 0.05): 3,270
+Significant genes (FDR < 0.05, |log2FC| > 1): 1,269
+  - Upregulated in OA: 642
+  - Downregulated in OA: 627
+
+TOP 10 UPREGULATED IN OA
+----------------------------------------
+  POSTN: log2FC = 5.92, FDR = 1.67e-07
+  COL1A1: log2FC = 5.17, FDR = 5.93e-07
+  TNFAIP6: log2FC = 4.09, FDR = 2.42e-06
+  LRRC15: log2FC = 4.04, FDR = 2.10e-07
+  TGFBI: log2FC = 4.02, FDR = 6.94e-06
+  THY1: log2FC = 3.94, FDR = 3.55e-07
+  TNC: log2FC = 3.73, FDR = 1.34e-04
+  CHI3L2: log2FC = 3.66, FDR = 3.56e-04
+  GRIA2: log2FC = 3.57, FDR = 5.47e-08
+  CFI: log2FC = 3.53, FDR = 7.70e-10
+
+TOP 10 DOWNREGULATED IN OA
+----------------------------------------
+  ADM: log2FC = -4.58, FDR = 2.00e-09
+  DDIT4: log2FC = -4.06, FDR = 2.13e-08
+  HILPDA: log2FC = -3.77, FDR = 1.90e-09
+  ATF3: log2FC = -3.60, FDR = 3.62e-09
+  LOC143666: log2FC = -3.15, FDR = 3.62e-09
+  CISH: log2FC = -3.15, FDR = 3.06e-09
+  MAFF: log2FC = -3.13, FDR = 9.39e-14
+  FOSB: log2FC = -3.12, FDR = 7.41e-04
+  SIK1: log2FC = -3.11, FDR = 4.05e-06
+  JUN: log2FC = -3.06, FDR = 2.48e-08
+
+OUTPUT FILES
+----------------------------------------
+  GSE114007_diff_expr_results.csv
+  GSE114007_significant_genes.csv
+  GSE114007_ranked_genes.csv
+  GSE114007_upregulated_in_OA.csv
+  GSE114007_downregulated_in_OA.csv
+  volcano_plot.png
+  top_genes_heatmap.png
+
+NEXT STEPS
+----------------------------------------
+  1. Pathway enrichment analysis (MSigDB Hallmarks)
+  2. Intersection with aging gene signatures
+  3. Filter for secreted factors (MSC-deliverable)
+  4. Prioritize therapeutic candidates
+
+============================================================
